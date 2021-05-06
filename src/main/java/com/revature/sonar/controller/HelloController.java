@@ -17,9 +17,5 @@ public class HelloController {
 		return "hello Again";
 	}
 	
-	@RequestMapping("/hi1")
 	
-	public String sayAgain() {
-		return "hello Again";
-	}
 }
