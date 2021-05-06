@@ -13,9 +13,9 @@ public class HelloController {
 		return "hello";
 	}
 	
-	@RequestMapping(value = "/hi",method = RequestMethod.GET)
-	
-	public String sayHi() {
+	//@RequestMapping(value = "/hi",method = RequestMethod.GET)
+	@GetMapping("/hi")
+		public String sayHi() {
 		return "hello Again";
 	}
 	
